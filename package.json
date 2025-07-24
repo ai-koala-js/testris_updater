@@ -32,7 +32,7 @@
   "description": "TTJ Electron Basic Application Template",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ttj/electron-basic.git"
+    "url": "https://github.com/ai-koala-js/testris_updater.git"
   },
   "devDependencies": {
     "electron": "^37.2.3",
@@ -174,8 +174,8 @@
     },
     "publish": {
       "provider": "github",
-      "owner": "ttj",
-      "repo": "electron-basic"
+      "owner": "ai-koala-js",
+      "repo": "testris_updater"
     }
   },
   "engines": {
