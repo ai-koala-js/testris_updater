@@ -152,4 +152,7 @@ backup/
 # Package managers
 package-lock.json
 yarn.lock
-pnpm-lock.yaml 
+pnpm-lock.yaml
+
+# Project specific
+guide.md 
