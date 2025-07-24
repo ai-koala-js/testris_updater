@@ -7,6 +7,13 @@ const log = require('electron-log')
 log.transports.file.level = 'info'
 autoUpdater.logger = log
 
+// 업데이트 서버 URL 직접 설정
+autoUpdater.setFeedURL({
+  provider: 'github',
+  owner: 'ai-koala-js',
+  repo: 'testris_updater'
+})
+
 // 개발 환경에서는 업데이트 체크 비활성화
 if (process.env.NODE_ENV === 'development' || process.argv.includes('--dev')) {
   autoUpdater.autoDownload = false
@@ -82,7 +89,7 @@ app.on('window-all-closed', function () {
 
 // 업데이트 체크 함수
 function checkForUpdates() {
-  autoUpdater.checkForUpdatesAndNotify()
+  autoUpdater.checkForUpdates()
 }
 
 // 업데이트 이벤트 핸들러
