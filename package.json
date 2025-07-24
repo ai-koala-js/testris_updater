@@ -103,7 +103,7 @@
       ],
       "icon": "assets/icon.ico",
       "requestedExecutionLevel": "asInvoker",
-      "artifactName": "${productName}-Setup-${version}.${ext}"
+      "artifactName": "${name}-Setup-${version}.${ext}"
     },
     "nsis": {
       "oneClick": false,
