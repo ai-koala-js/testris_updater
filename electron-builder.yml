@@ -1,0 +1,5 @@
+publish:
+  provider: github
+  owner: ttj
+  repo: electron-basic
+  releaseType: release
