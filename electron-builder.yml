@@ -1,0 +1,5 @@
+publish:
+  provider: github
+  owner: ai-koala-js
+  repo: testris_updater
+  releaseType: release
